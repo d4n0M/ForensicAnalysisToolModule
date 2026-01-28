@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+cpp/bindings.cpp
+forensic_weapon_detection.egg-info/PKG-INFO
+forensic_weapon_detection.egg-info/SOURCES.txt
+forensic_weapon_detection.egg-info/dependency_links.txt
+forensic_weapon_detection.egg-info/requires.txt
+forensic_weapon_detection.egg-info/top_level.txt
+inference/__init__.py
+inference/inference.py

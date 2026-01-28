@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=64.0", "wheel", "pybind11>=2.11.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "forensic_weapon_detection"
+version = "0.1.0"
+description = "Transformer-based zero-shot weapon detection for forensic analysis"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = [
+    "torch>=2.0.0",
+    "torchvision>=0.15.0",
+    "transformers>=4.30.0",
+    "opencv-python>=4.8.0",
+    "numpy>=1.24.0",
+    "Pillow>=10.0.0",
+    "scipy>=1.15.3",
+    "tqdm>=4.65.0"
+]
+
+[tool.setuptools]
+packages = ["inference"]
